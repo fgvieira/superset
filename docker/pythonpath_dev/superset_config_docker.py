@@ -42,7 +42,7 @@ SECRET_KEY = 'kvncyxf3DXeBKaGV5uPYT98URL64j7tFmbMzAJwgWSqQNC2dhp'
 # you want to explore are managed directly in the web UI
 # The check_same_thread=false property ensures the sqlite client does not attempt
 # to enforce single-threaded access, which may be problematic in some edge cases
-SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://caeg:cQ2NCRBtauzkG39xMq7VdSFfjZgJ4r@dandyweb01fl.unicph.domain:5432/superset"
+SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://caeg:cQ2NCRBtauzkG39xMq7VdSFfjZgJ4r@dandypdb01fl.unicph.domain:5432/superset"
 SQLALCHEMY_ECHO = True
 
 # Flask-WTF flag for CSRF
